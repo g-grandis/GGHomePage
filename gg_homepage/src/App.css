@@ -7,19 +7,25 @@ body {
   }
   
 img {
-  height: 25px;
-  width: 25px;
+  height: 35px;
+  width: 35px;
 }
 
 .buttons{
   display: grid;
-  grid-template-rows: 30px 30px;
-  grid-template-columns: 30px 30px 30px;
-  grid-gap: 10px;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 20px;
 }
 .btn.btn-dark.btn-padding {
-  padding-top: 0px;
+  padding-top: 7px;
   padding-left: 1px;
   padding-right: 1px;
   padding-bottom: 1px;
+}
+a#tab-favorites-tab-work{
+  color:black;
+}
+a#tab-favorites-tab-home{
+  color:black;
 }
